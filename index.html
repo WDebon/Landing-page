@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html>
 
 <head>
     <meta charset="UTF-8">
@@ -7,18 +7,22 @@
     <title>Document</title>
     <link rel="stylesheet" href="Important/Stylesheets/main.css">
     <link rel="stylesheet" href="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div class="main-box">  <!-- https://www.quackit.com/html/codes/html_scroll_box.cfm -->
+    <div id="main-box">  <!-- https://www.quackit.com/html/codes/html_scroll_box.cfm -->
         <div class="title">
             <div id="title-area"> 
                 <div id="title-area-vector"></div>
                 <div id="title-area-text">
-                    <p>Web portifólio <br> <span>(Gabriel felix)</span></p>
+                    <p lang="pt">Web portifólio <br> <span>(Gabriel felix)</span></p>
+                    <p Lang="en" hidden>Web portfolio <br> <span>(Gabriel felix)</span></p>
                 </div>
             </div>
-            <p id="title-language">(<span id="English">english</span> / <span id="Portugues">português</span>)</p>
+            <p id="title-language">(<a id="English">english</a> / <a id="Portugues">português</a>)</p>
 
         </div>
         <div class="about-me">
@@ -52,7 +56,8 @@
         </div>
     </div>
 
-    <Script src="https://code.jquery.com/jquery-3.7.1.min.js"></Script>  <!--Library: https://api.jquery.com-->
+    <Script src="https://code.jquery.com/jquery-3.7.1.min.js"></Script>  <!--Library: https://api.jquery.com -->
+    <script src="Important/Java/main.js"></script>
 </body>
 
 </html>
