@@ -1,0 +1,26 @@
+*{
+    font-family: Inter;
+    cursor: default;
+}
+
+body{
+    background-color: rgb(71, 71, 71);
+}
+
+#main-box{
+    max-width: 600px;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a:hover{
+    transition: 200ms;
+    color: aqua;
+}
+
+a{
+    transition: 200ms;
+    cursor: pointer;
+    
+}
