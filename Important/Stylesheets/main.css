@@ -1,15 +1,24 @@
+:root{
+    --early_grey: #C1C1C1;
+}
+
 *{
-    font-family: Inter;
     cursor: default;
+    font-family: Inter;
 }
 
 body{
-    background-color: rgb(71, 71, 71);
+    /* display: flex; */
+    padding: 50px 350px 50px 350px;
+    background: #1D1919;
 }
 
 #main-box{
-    max-width: 600px;
-    padding: 50px;
+    border-radius: 19px;
+    background: linear-gradient(0deg, #D1D1D1 -4.5%, rgba(209, 209, 209, 0.00) 100%);
+    width: 733px;
+    height: 927px;
+    flex-shrink: 0;
     margin-left: auto;
     margin-right: auto;
 }
@@ -22,5 +31,45 @@ a:hover{
 a{
     transition: 200ms;
     cursor: pointer;
-    
+}
+
+#about-right{
+    width: 241px;
+    height: 159px;
+    flex-shrink: 0;
+    border-radius: 0px 0px 5px 5px;
+    background: rgba(191, 191, 191, 0.06);         
+}
+
+#about-left{
+    width: 439px;
+    height: 159px;
+    flex-shrink: 0;
+    border-radius: 0px 0px 5px 5px;
+    background: rgba(191, 191, 191, 0.06);
+}
+
+#about-me{
+    width: 100%;
+    font-size: 12px;
+    font-weight: 400;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+}
+
+#about-left p{
+    padding-top: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0px;
+}
+
+#about-right p{
+    width: fit-content;
+    padding-top: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0px;
 }
