@@ -1,5 +1,6 @@
 :root{
     --early_grey: #C1C1C1;
+    --durly_grey: #D9D9D9;
 }
 
 *{
@@ -23,53 +24,3 @@ body{
     margin-right: auto;
 }
 
-a:hover{
-    transition: 200ms;
-    color: aqua;
-}
-
-a{
-    transition: 200ms;
-    cursor: pointer;
-}
-
-#about-right{
-    width: 241px;
-    height: 159px;
-    flex-shrink: 0;
-    border-radius: 0px 0px 5px 5px;
-    background: rgba(191, 191, 191, 0.06);         
-}
-
-#about-left{
-    width: 439px;
-    height: 159px;
-    flex-shrink: 0;
-    border-radius: 0px 0px 5px 5px;
-    background: rgba(191, 191, 191, 0.06);
-}
-
-#about-me{
-    width: 100%;
-    font-size: 12px;
-    font-weight: 400;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    gap: 13px;
-}
-
-#about-left p{
-    padding-top: 4px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin: 0px;
-}
-
-#about-right p{
-    width: fit-content;
-    padding-top: 4px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin: 0px;
-}
