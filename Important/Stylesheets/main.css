@@ -59,3 +59,9 @@ footer{
     margin-left: auto;
     margin-right: auto;
 }
+
+.ticket-area{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
