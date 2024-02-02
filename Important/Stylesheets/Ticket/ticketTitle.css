@@ -1,0 +1,64 @@
+.ticket-title{
+    position: relative;
+    top: -16px;
+    gap: 4px;
+    display: flex;
+    color: #FFF;
+    font-feature-settings: 'cpsp' on;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 355;
+    line-height: normal;
+}
+
+.left-border-div{
+    width: 3px;
+    height: 62px;
+    flex-shrink: 0;
+    border-radius: 11px;
+    background: #D9D9D9;
+}
+
+.ticket-title > p >img{
+    width: 20px;
+    height: auto;
+    position: relative;
+    top: -10px;
+    mix-blend-mode: overlay;
+    opacity: 50%;
+}
+.ticket-title > p{
+    width: 200px;
+    margin: 0;
+    word-spacing: 0px;
+}
+
+.ticket-title > p > span{
+    font-size: 14px !important;
+}
+
+.title-selector:hover{
+    font-size: 23px;
+    transition: 300ms;
+}
+
+.title-selector{
+    transition: 300ms;
+    cursor: pointer;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.date{
+    font-weight: lighter;
+    font-size: 8px;
+    text-orientation: upright;
+    writing-mode: vertical-rl;
+    margin-left: 0px;
+    width: fit-content !important;
+}
+
+.code-used{
+    font-size: 8px;
+    font-weight: 200;
+}
