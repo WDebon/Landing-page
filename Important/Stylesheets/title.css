@@ -65,7 +65,8 @@
     text-transform: lowercase;
 }
 
-a:hover{
+/* .language-selector:hover , .title-selector:hover */
+.language-selector:hover{
     transition: 200ms;
     color: #ececec !important;
     font-size: 14px !important;
@@ -73,7 +74,7 @@ a:hover{
     text-transform: capitalize !important;
 }
 
-a{
+.language-selector{
     transition: 200ms;
     cursor: pointer;
     padding: none;
