@@ -10,10 +10,13 @@
     <link rel="stylesheet" href="Important/Stylesheets/main.css">
     <link rel="stylesheet" href="Important/Stylesheets/infoBox.css">
     <link rel="stylesheet" href="Important/Stylesheets/title.css">
+    <link rel="stylesheet" href="Important/Stylesheets/Ticket/ticketBody.css">
+    <link rel="stylesheet" href="Important/Stylesheets/Ticket/ticketTitle.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -23,7 +26,7 @@
                 <div id="title-area-text">
                     <p class="title-area-main-text" lang="pt">Web portifólio</p>
                     <p class="title-area-main-text" Lang="en" hidden>Web portfolio</p>
-                    <p id="nome">(Meu nome)</span>   
+                    <p id="nome">(Gabriel felix)</span>   
                         <svg id="title-area-vector" xmlns="http://www.w3.org/2000/svg" width="225" height="70" viewBox="0 0 225 70" fill="none">
                             <g filter="url(#filter0_i_7_218)">
                                 <path d="M1 69H192.598C203.065 66.6671 224 55.8027 224 31.0078C224 6.21285 224 0.680643 224 1.01391" stroke="#D9D9D9" stroke-width="2" stroke-linecap="round"/>
@@ -43,7 +46,7 @@
                         </svg>
                 </div>
             </div>
-            <p id="title-language">(<a id="English">english</a> / <a id="Portugues">português</a>)</p>
+            <p id="title-language">(<a id="English" class="language-selector">english</a> / <a id="Portugues" class="language-selector">português</a>)</p>
 
         </div>
 
@@ -61,11 +64,14 @@
         </div>
 
         <div class="ticket-area">
+
+            <!-- Landing page -->
             <div class="ticket">
                 <div class="ticket-content">
 
-                    <img src="" href="">
-
+                    <!--Trocar o background!!!!-->
+                    <div class="ticket-image" style="background-image: url(Important/Media/Landing.png);"></div> 
+                    
                     <!-- Barrinha branca -->
                     <div class="bar">
                         <div class="handle"></div>
@@ -74,18 +80,97 @@
 
                 </div>
 
+                    <!-- Título! -->
                 <div class="ticket-title">
+                    <p class="date">1|2024</p>
                     <div class="left-border-div"></div>
-                    <p>Título <br> <span>(html/CSS)</span></p>
+                    <p>
+                        <a href="" class="title-selector">
+                            <span lang="pt">Portifólio</span>
+                            <span lang="en" hidden>Portfolio</span>
+                        </a>
+                        
+                        <img src="Important/Media/github.png">
+                        <br>
+                        <span class="code-used">(CSS/Jquery)</span>
+                    </p>
                 </div>
 
             </div>
+
+            <!-- Tarefas -->
+            <div class="ticket">
+                <div class="ticket-content">
+
+                    <!--Trocar o background!!!!-->
+                    
+                    <a href="Websites/tarefas/index.html"><div class="ticket-image" style="background-image: url(Important/Media/Tarefas.gif);"></div></a>
+                    
+                    <!-- Barrinha branca -->
+                    <div class="bar">
+                        <div class="handle"></div>
+                        <div class="handle-bar"></div>
+                    </div>
+
+                </div>
+
+                    <!-- Título! -->
+                <div class="ticket-title">
+                    <p class="date">2|2023</p>
+                    <div class="left-border-div"></div>
+                    <p>
+                        <a href="" class="title-selector">
+                            <span lang="pt">Lista de tarefas</span>
+                            <span lang="en" hidden>Tasks list</span>
+                        </a>
+                        
+                        <img src="Important/Media/github.png">
+                        <br>
+                        <span class="code-used">(CSS/Jquery)</span>
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- Hotdog -->
+            <div class="ticket">
+                <div class="ticket-content">
+
+                    <!--Trocar o background!!!!-->
+                    
+                    <a href="Websites/hotdog/index.html"><div class="ticket-image" style="background-image: url(Important/Media/Tarefas.gif);"></div></a>
+                    
+                    <!-- Barrinha branca -->
+                    <div class="bar">
+                        <div class="handle"></div>
+                        <div class="handle-bar"></div>
+                    </div>
+
+                </div>
+
+                    <!-- Título! -->
+                <div class="ticket-title">
+                    <p class="date">2|2023</p>
+                    <div class="left-border-div"></div>
+                    <p>
+                        <a href="" class="title-selector">
+                            <span>Hotdog</span>
+                        </a>
+                        
+                        <img src="Important/Media/github.png">
+                        <br>
+                        <span class="code-used">(CSS/Jquery)</span>
+                    </p>
+                </div>
+
+            </div>
+            
         </div>
 
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
     </div>
-    <br><footer>&copy; | 2024 | Meu nome  </footer>
+    <br><footer>&copy; | 2024 | Gabriel Felix  </footer>
 
     <Script src="https://code.jquery.com/jquery-3.7.1.min.js"></Script>  <!--Library: https://api.jquery.com -->
     <script src="Important/Java/main.js"></script>
