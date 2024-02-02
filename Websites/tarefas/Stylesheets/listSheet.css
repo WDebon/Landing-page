@@ -32,7 +32,7 @@ li {
 }
 
 .off:hover img {
-    content: url(/Green\ check.png);
+    content: url(../Green\ check.png);
     transform: scaleX(1);
     rotate: 360deg;
 }
@@ -45,7 +45,7 @@ li {
     cursor:default;
 }
 
-.on img{content: url(/Green\ check.png); transform: scaleX(1);}
+.on img{content: url(../Green\ check.png); transform: scaleX(1);}
 
 .txt {
     /*Box model stuff*/
