@@ -27,10 +27,12 @@
     mix-blend-mode: overlay;
     opacity: 50%;
 }
+
 .ticket-title > p{
     width: 200px;
     margin: 0;
     word-spacing: 0px;
+    line-height: 20px;
 }
 
 .ticket-title > p > span{
@@ -50,6 +52,7 @@
 }
 
 .date{
+    display: none;
     font-weight: lighter;
     font-size: 8px;
     text-orientation: upright;
