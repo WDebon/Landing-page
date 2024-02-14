@@ -65,3 +65,13 @@ footer{
     gap: 30px;
     flex-direction: column;
 }
+
+.ticket{
+    animation: fade-out cubic-bezier(.95,0,.21,1);
+    animation-timeline: view();
+    animation-range: cover 100px;
+}
+
+@keyframes fade-out {
+    to{opacity: 0;}
+}
