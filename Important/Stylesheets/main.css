@@ -66,10 +66,18 @@ footer{
     flex-direction: column;
 }
 
+
+.fade{
+    animation: fade-out cubic-bezier(.95,0,.21,1);
+    animation-timeline: view();
+    animation-range: cover 800px;
+}
+
+
 .ticket{
     animation: fade-out cubic-bezier(.95,0,.21,1);
     animation-timeline: view();
-    animation-range: cover 100px;
+    animation-range: cover 400px;
 }
 
 @keyframes fade-out {
