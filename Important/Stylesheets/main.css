@@ -12,6 +12,7 @@
 body {
     padding: 50px 350px 50px 350px;
     background: #1D1919;
+    scale: 0.9;
 }
 
 #main-box {
