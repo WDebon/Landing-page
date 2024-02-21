@@ -33,7 +33,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-    border-radius: 53px;
+    border-radius: 0 10px 10px 0;
     background: rgba(0, 0, 0, 0.1);
     height: 85px;
 }
