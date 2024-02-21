@@ -1,5 +1,6 @@
 :root{
     --transition: 500ms cubic-bezier(.02,.01,.68,-0.14);
+    --transition2: 2s ease-in-out;
 }
 
 .ticket:hover{
@@ -8,6 +9,11 @@
     transition: var(--transition);
 } 
 
+/* .ticket-image:hover{
+    background-size: 600px;
+    transition: var(--transition2);
+} */
+
 :root{
     --pearly_grey: #dddddd;
 }
@@ -15,7 +21,7 @@
 .ticket{
     transition: var(--transition);
     position: relative;
-    left: -400px;
+    /* left: -400px; */
     margin-top: 30px;
     display: inline-flex;
     gap: 15px;
@@ -28,15 +34,19 @@
 }
 
 .ticket-image{
+    /* transition: var(--transition2); */
     cursor: pointer;
     overflow: hidden;
     height: 125px;
     width: 400px;
-    flex: 1 0 0;    
+    flex: 1 0 0;
     border: 50px solid #D9D9D9 inset;
     box-shadow: -25px 0px 10.4px 1px var(--pearly_grey) inset;
     background: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .ticket-content{
