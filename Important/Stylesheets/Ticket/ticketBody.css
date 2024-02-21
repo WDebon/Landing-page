@@ -21,7 +21,7 @@
 .ticket{
     transition: var(--transition);
     position: relative;
-    /* left: -400px; */
+    left: -400px;
     margin-top: 30px;
     display: inline-flex;
     gap: 15px;
