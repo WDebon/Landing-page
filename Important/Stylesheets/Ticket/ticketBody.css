@@ -33,12 +33,6 @@
     flex-wrap: nowrap;
 }
 
-@media (max-width:750px){
-    .ticket:hover{
-        left: -300px;
-    }
-}
-
 .ticket-image{
     /* transition: var(--transition2); */
     cursor: pointer;
@@ -88,4 +82,14 @@
     background: #a2a2a2;    
 }
 
+@media (max-width:750px){
+    .ticket:hover{
+        left: -300px;
+    }
+
+    .ticket>div{
+        border-radius: 10px;
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.183) 0%, rgba(255, 255, 255, 0) 100%);
+    }
+}
 
