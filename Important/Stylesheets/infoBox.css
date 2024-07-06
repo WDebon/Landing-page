@@ -42,3 +42,22 @@
     padding-right: 10px;
     margin: 0px;
 }
+
+@media (max-width:750px){
+    #about-me{
+        display: block;
+        width: 100%;
+        justify-content: center;
+    }
+
+    #about-left, #about-right{
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        overflow-y: auto;
+    }
+
+    #about-right{
+        margin-top: 10px;
+    }
+}

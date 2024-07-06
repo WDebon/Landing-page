@@ -5,7 +5,7 @@
 
 .ticket:hover{
     position: relative;
-    left: 0px;
+    left: 0;
     transition: var(--transition);
 } 
 
@@ -31,6 +31,12 @@
     flex-shrink: 0;
     flex-direction: row;
     flex-wrap: nowrap;
+}
+
+@media (max-width:750px){
+    .ticket:hover{
+        left: -300px;
+    }
 }
 
 .ticket-image{
