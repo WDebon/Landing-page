@@ -80,9 +80,14 @@ footer {
     animation-range: cover 400px;
 }
 
+#about-me-line{
+    display: none;
+}
+
 @keyframes fade-out {
     to {opacity: 0;}
 }
+
 
 @media  (max-width: 1420px) {
     body{
@@ -97,5 +102,14 @@ footer {
 @media (max-width:750px){
     #main-box{
         width: 100%;
+    }
+
+    #about-me-line{
+        padding: ;
+        display: block;
+        width: 50%;
+        margin: 10px auto;
+        border: 1px solid #C1C1C1;
+        border-radius: 10px;
     }
 }
